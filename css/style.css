@@ -1,0 +1,140 @@
+/*algemeen*/
+
+
+
+/*header*/
+header{
+    justify-content: space-between;
+    align-items: center;
+    background-color:#efecdd;
+    
+}
+
+
+header ul{
+    font-family: "Helvetica light", Arial, Helvetica, sans-serif;
+    font-size: 0,1em;
+    color: #efecdd;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+header ul li{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a:hover{
+    background-color: #efecdd;
+    color: #3a5134;
+}
+
+nav a:focus{
+    background-color:#efecdd;
+    color: #3a5134;
+}
+
+nav a{
+    display: block;
+    border-radius: 5em;
+    background-color: #3a5134;
+    color:#efecdd;
+    padding: 12px;
+    margin: 3px;
+    text-decoration: none;
+    transition: all 450ms ease-in-out;
+}
+
+.logo {
+    width: 5em;
+}
+
+
+
+/*main*/
+body{
+    background-color: #3a5134;
+}
+
+main{
+    margin: 1em;
+    color: #efecdd;
+    padding-bottom: 2em;
+}
+
+main h1{
+    font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
+    color: #efecdd;
+}
+
+h2{
+    font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
+    color: #efecdd;
+}
+
+main p{
+    font-family: "Helvetica light", Arial, Helvetica, sans-serif;
+    font-size: 0,2em;
+}
+
+main img{
+    display: flex;
+    justify-content: left;
+    width: 320px;
+}
+
+.footer_illustratie {
+    display: flex;
+    justify-content: left;
+    width: 359px;
+    margin: -16px;
+    margin-top: -56px;
+   
+}
+
+.foto_van_manon{
+    width: 120px;
+}
+
+main div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+/*footer*/
+footer{
+    background-color: #efecdd;
+    padding: 1em;
+}
+
+footer img{
+    width: 110px;
+}
+
+footer div{
+    display: flex;
+    gap: 100px;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+footer a img{
+    width: 25px;
+   
+}
+
