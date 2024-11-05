@@ -7,9 +7,11 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color:#efecdd;
-    
 }
 
+header div{
+    display: flex;
+}
 
 header ul{
     font-family: "Helvetica light", Arial, Helvetica, sans-serif;
@@ -31,12 +33,12 @@ nav{
     justify-content: space-between;
 }
 
-nav a:hover{
-    background-color: #efecdd;
+nav a:focus{
+    background-color:#efecdd;
     color: #3a5134;
 }
 
-nav a:focus{
+nav a:active{
     background-color:#efecdd;
     color: #3a5134;
 }
@@ -47,13 +49,15 @@ nav a{
     background-color: #3a5134;
     color:#efecdd;
     padding: 12px;
-    margin: 3px;
+    margin: 4px;
     text-decoration: none;
     transition: all 450ms ease-in-out;
+    font-size: 11px;
 }
 
 .logo {
     width: 5em;
+    margin: 9px;
 }
 
 
@@ -109,6 +113,27 @@ main div{
     align-items: center;
 }
 
+.buttons_homepagina a:focus{
+    background-color:#3a5134;
+    color: #efecdd;
+}
+
+.buttons_homepagina a:active{
+    background-color:#3a5134;
+    color: #efecdd;
+}
+
+.buttons_homepagina{
+    display: flex;
+    background-color: #efecdd;
+    font-family: "Rubik Dirt", Arial, Helvetica, sans-serif;
+    color: #3a5134;
+    border-radius: 5em;
+    padding: 12px;
+    margin: 3px;
+    text-decoration: none;
+    transition: all 450ms ease-in-out;
+}
 
 
 /*footer*/
@@ -131,10 +156,17 @@ footer ul{
     flex-wrap: wrap;
     flex-direction: column;
     list-style-type: none;
+    text-decoration: none;
+    font-family: "Helvetica light", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-top: 30px;
 }
 
 footer a img{
     width: 25px;
-   
 }
 
+.socialmedia_icons{
+    display: flex;
+    gap: 133px;
+}
