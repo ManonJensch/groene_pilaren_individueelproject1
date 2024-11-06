@@ -38,11 +38,6 @@ nav a:focus{
     color: #3a5134;
 }
 
-nav a:active{
-    background-color:#efecdd;
-    color: #3a5134;
-}
-
 nav a{
     display: block;
     border-radius: 5em;
@@ -64,7 +59,9 @@ nav a{
 
 /*main*/
 body{
-    background-color: #3a5134;
+    background-image: url("/images/homepagina_1.png");
+    background-size: 375px;
+    background-color: #13231a;
 }
 
 main{
@@ -118,11 +115,6 @@ main div{
     color: #efecdd;
 }
 
-.buttons_homepagina a:active{
-    background-color:#3a5134;
-    color: #efecdd;
-}
-
 .buttons_homepagina{
     display: flex;
     background-color: #efecdd;
@@ -133,6 +125,8 @@ main div{
     margin: 3px;
     text-decoration: none;
     transition: all 450ms ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 
@@ -151,22 +145,27 @@ footer div{
     gap: 100px;
 }
 
-footer ul{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    list-style-type: none;
-    text-decoration: none;
-    font-family: "Helvetica light", Arial, Helvetica, sans-serif;
-    font-size: 11px;
+.logo_bronnen{
     margin-top: 30px;
 }
 
 footer a img{
-    width: 25px;
+    width: 20px;
+    justify-content: center;
 }
 
 .socialmedia_icons{
     display: flex;
-    gap: 133px;
+    gap: 148px;
+    margin-top: -15px;
+}
+
+.copyright{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-family: "Helvetica light", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    margin-top: 20px;
 }
